@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Table Export Example</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>Williams</td>
+            <td>16</td>
+        </tr>
+    </table>
+    <button onclick="downloadTableAsExcel()">Download Table</button>
+    <script src="xlsx.core.js"></script>
+    <script src="fileSaver.min.js"></script>
+    <script src="tableexport.min.js"></script>
+    <script src="my.js"></script>
+</body>
+
+</html>
