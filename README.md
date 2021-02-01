@@ -4,6 +4,8 @@
 
 To run the example, download the repository and open [index.html](./index.html) in a browser.
 
+![html table to excel](./image.jpg)
+
 ### Why?
 
 Ever need to make an Excel file out of an HTML table (without any requests to the backend)? This repository contains an example solution. It uses [TableExport](https://github.com/clarketm/TableExport) (thanks [clarketm](https://github.com/clarketm), Go [Hokies](https://vt.edu/)!), [FileSaver.js](https://github.com/eligrey/FileSaver.js/), and [SheetJS](https://github.com/SheetJS/sheetjs) to convert the HTML table to an Excel file you can download.
